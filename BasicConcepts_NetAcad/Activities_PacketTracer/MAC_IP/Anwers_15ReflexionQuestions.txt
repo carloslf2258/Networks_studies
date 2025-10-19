@@ -1,0 +1,23 @@
+1- Sí, aunque la mayoría es de tipo Copper Straight-Through
+2- No
+3- Mando a ambos portatiles, pero solo el 10.2 lo aceptó
+4- No
+5- Capa 1 – Física: transmite los bits por el medio (radio o cable).
+
+Capa 2 – Enlace de datos: usa MACs para enviar tramas (Ethernet o Wi-Fi).
+
+Capa 3 – Red: aquí vive el ICMP (protocolo del ping), que funciona sobre IP
+
+6- First Layer
+7- Destination Addres
+8- The ❌ means: The frame's destination MAC address does not match the receiving port's MAC address, the broadcast address, or any multicast address. The device drops the frame
+The ✅: 1. The frame's destination MAC address matches the receiving port's MAC address, the broadcast address, or a multicast address.
+2. The device decapsulates the PDU from the Ethernet frame.
+
+9- Cuando cambia el puerto del Router para pasar a la otra red y, por consecuencia, cambia el MAC destino, pasa a ser el MAC de la red 10 y del PC 10.2
+10- The router
+11- Al otro puerto del router, los MAC de las PC y el Access Point como es Wireless y usa formato 802.11 muestra su MAC
+12- No
+13- When the pong occurs, the IP addresses are swapped or exchanged.
+14- Because it is the limiter beetween the two networks
+15- 10.10.10.0/24 and 172.16.31.0 /24

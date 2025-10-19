@@ -1,0 +1,26 @@
+El comando netstat muestra las conexiones TCP activas en un equipo.
+Permite ver:
+Protocolo (TCP/UDP)
+Dirección local y puerto
+Dirección remota y puerto
+Estado de la conexión
+
+"netstat -n" -> muestra los valores numéricos (Nº de puertos sin traducir).
+
+Sirve para detectar conexiones sospechosas o actividad no autorizada en el host. 🔍
+
+⚠️ Información extra:
+Estados.
+ESTABLISHED: conexión activa y en uso.
+LISTENING: el host está esperando conexiones entrantes.
+TIME_WAIT / CLOSE_WAIT: conexiones que están cerrándose
+
+Opciones útiles:
+netstat -a → muestra todas las conexiones y puertos en escucha.
+netstat -b → muestra qué programa o proceso usa cada conexión (requiere permisos de admin).
+netstat -o → muestra el PID (Process ID) de cada conexión, útil para rastrear procesos sospechosos.
+
+Uso en seguridad:
+Detectar conexiones abiertas con IPs desconocidas.
+Comprobar si algún malware está comunicándose con el exterior.
+Revisar qué puertos están expuestos en el sistema.
